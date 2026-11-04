@@ -1,0 +1,2 @@
+# Needed to audit a real AWS account.
+boto3

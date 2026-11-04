@@ -1,0 +1,4 @@
+[tool.pytest.ini_options]
+# Lets the tests `import s3_auditor` from this folder.
+pythonpath = ["."]
+testpaths = ["tests"]

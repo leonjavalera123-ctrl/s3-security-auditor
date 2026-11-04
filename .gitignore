@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.pyc
+venv/
+.venv/
+.pytest_cache/
+
+# Generated reports (they contain your account ID and bucket policies)
+reports/
+*.report.json
+
+# Secrets: never commit these
+.env
+.env.*
+*.pem
+*.key
+*.p12
+*.pfx
+credentials
+credentials.*
+*secret*
+.aws/

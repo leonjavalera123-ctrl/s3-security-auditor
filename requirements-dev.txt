@@ -1,0 +1,5 @@
+# For the --demo mode and the tests. moto fakes AWS locally, so neither
+# needs an AWS account or credentials.
+-r requirements.txt
+moto[s3]
+pytest
